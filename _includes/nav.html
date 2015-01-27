@@ -4,7 +4,7 @@
         <ul class="title-area">
             <li class="name">
                 <h1>
-                	<a href="{{ site.url }}/{{ site.baseurl }}">{{ site.name }}</a>
+                	<a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
         		</h1>
             </li>
             <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
@@ -16,7 +16,7 @@
 				{% for node in site.data.navigation %}
 						{% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
 				<li {% if nodediff != page.url %}class="active" {% endif %}>
-					<a href="{{site.url}}/{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a>
+					<a href="{{site.url}}{{site.baseurl}}/{{ node.url }}">{{ node.title }}</a>
 				</li>
 
 				{% endfor %}
