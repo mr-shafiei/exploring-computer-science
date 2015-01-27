@@ -5,7 +5,7 @@ redcarpet:
     extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
 markdown_ext: markdown,mkdown,mkdn,mkd,md
 highlighter: pygments
-baseurl: "/exploring-computer-science/"
+baseurl: "exploring-computer-science"
 url: "http://mrshafiei.com"
 permalink: pretty
 kramdown:
