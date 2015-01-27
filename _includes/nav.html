@@ -1,0 +1,30 @@
+<!-- Main Navigation -->
+<div class="fixed shadow-border">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <h1>
+                	<a href="{{ site.url }}/{{ site.baseurl }}">{{ site.name }}</a>
+        		</h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+        <!-- Right Nav Section -->
+            <ul class="right">
+				{% for node in site.data.navigation %}
+						{% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
+				<li {% if nodediff != page.url %}class="active" {% endif %}>
+					<a href="{{ node.url }}">{{ node.title }}</a>
+				</li>
+
+				{% endfor %}
+            
+            </ul>
+
+        <!-- Left Nav Section -->
+
+        </section>
+    </nav>
+</div>

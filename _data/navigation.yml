@@ -1,0 +1,24 @@
+- title: About
+  text: About
+  url: /sections/about
+
+- title: Assignments
+  text: Assignments
+  url: /sections/assignments
+  
+- title: Calendar
+  text: Calendar
+  url: /sections/calendar
+  
+- title: Syllabus
+  text: Syllabus
+  url: /sections/syllabus
+  
+- title: Resources
+  text: Resources
+  url: /sections/resources
+  
+- title: Grades
+  text: Grades
+  url: /sections/grades
+

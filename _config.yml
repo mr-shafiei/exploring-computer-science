@@ -1,0 +1,31 @@
+name: "Exploring Computer Science"
+description: >
+  Exploring Computer Science.  Mr. Shafiei - Spring 2015
+redcarpet:
+    extensions: ["hard_wrap", "no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "strikethrough", "superscript"]
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+highlighter: pygments
+baseurl: ""
+url: "http://mrshafiei.com"
+permalink: pretty
+kramdown:
+    input: GFM
+
+markdown:    redcarpet
+highlighter: pygments
+lsi:         false
+excerpt_separator: "\n\n"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout:  "course-single-column"
+      
+  -
+    scope:
+      path: "sections/calendar"
+      type: "posts"
+    values:
+      layout: "course-calendar-post"
