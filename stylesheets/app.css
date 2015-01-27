@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(colors.css);
 /* line 347, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.0/";
@@ -9046,4 +9050,36 @@ th.hide-for-touch {
 body {
   font-family: "Helvetica Nueue";
   color: green;
+}
+
+/* line 8, ../scss/_layouts.scss */
+header {
+  background: url(../img/analogcomputer.jpg);
+  background-size: 100%;
+  background-position: 50%;
+  min-height: 200px;
+  margin-bottom: 25px;
+}
+
+/* line 19, ../scss/_layouts.scss */
+.title-area li a {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+/* line 25, ../scss/_layouts.scss */
+header h1 {
+  color: white;
+  font-weight: bold;
+}
+
+/* line 31, ../scss/_layouts.scss */
+header h4 {
+  color: white;
+}
+
+/* line 37, ../scss/_layouts.scss */
+.shadow-border {
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
 }
