@@ -9045,12 +9045,6 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 1, ../scss/_typography.scss */
-body {
-  font-family: "Helvetica Nueue";
-  color: green;
-}
-
 /* line 7, ../scss/_layouts.scss */
 header {
   /* background: url(../img/analogcomputer.jpg); */
