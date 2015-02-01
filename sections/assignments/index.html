@@ -2,26 +2,53 @@
 title: Assignments
 ---
 
-<!-- Show most recent assignment -->
-<ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1">
-    {% for post in site.categories['assignments'] limit:1 %}
-  <li>
-    <div class="panel callout">
-        <h3><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h3>
-        <h6><small>Posted on: {{post.date | date: "%b %d, %Y" }}</small></h6>
-        <hr>
-        <p>{{post.excerpt}}</p>
-        <p class="right label alert" id="due-date">Due Date: {{post.due-date | date: "%b %d, %Y"}}</p>
-    </div></li>
-    {% endfor %}
-    {% for post in site.categories['assignments'] offset:1 %}
-  <li>
-    <div class="panel">
-        <h3><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h3>
-        <h6><small>Posted on: {{post.date | date: "%b %d, %Y" }}</small></h6>
-        <hr>
-        <p>{{post.excerpt}}</p>
-        <p class="right label alert" id="due-date">Due Date: {{post.due-date | date: "%b %d, %Y"}}</p>
-    </div></li>
-    {% endfor %}
-</ul>
+<table>
+    <thead>
+        <tr>
+        <th>
+        </th>
+        <th>
+            Assignment
+        </th>
+        <th>
+            Posted On
+        </th>
+        <th>
+            Type
+        </th>
+        <th>
+            Due Date
+        </th>
+        <th>
+            How To Turn In
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+{% for post in site.categories['assignments'] %}
+    <tr>
+        <td>
+            {{ forloop.index }}
+        </td>
+
+        <td>
+            <a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a>
+        </td>
+        <td>
+            <small>{{post.date | date: "%b %d, %Y" }}</small>
+        </td>
+        <td>
+            {{ post.type }}
+        </td>
+        <td>
+            <strong>{{post.due-date | date: "%b %d, %Y"}}</strong>
+        </td>
+        <td>
+            {{ post.submission }}
+        </td>
+    </tr>
+{% endfor %}
+
+
+</tbody>
+</table>

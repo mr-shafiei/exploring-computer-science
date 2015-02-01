@@ -1,0 +1,5 @@
+        <ul class="side-nav">
+        {% for post in site.categories['calendar'] reversed %}
+            <li><a href="{{post.url}}" {% if post.url == page.url %}class="active"{%endif %}>{{post.title}}</a></li>
+        {% endfor %}
+    	</ul>
