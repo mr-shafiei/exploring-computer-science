@@ -1,14 +1,17 @@
-<section class="module parallax parallax-1">
-    <div class="container">
-        <h1>Serene</h1>
-    </div>
-</section>
+<div class="hero">
+  {% if page.hero-image %}
+  <img class="hero__background" src="{{page.hero-image}}">
+  {% else %}
+  <img class="hero__background" src="{{ site.baseurl }}/img/analogcomputer.jpg">
+  {% endif %}
+  {% if page.title %}
+    <h1 class="hero__title">{{ page.title }}</h1>
+  {% endif %}
+</div>
 
-      <section class="module content">
-        <div class="container">
+
+<!--
           
-
-<!-- 
       <div class="row" id="masthead">
         <div class="large-12 medium-12 small-12 columns">
             {% if page.title != nil %}
@@ -19,6 +22,5 @@
             {% endif %}
         </div>
     </div>
-
+-->
     <div id="content-wrapper">
-    -->

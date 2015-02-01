@@ -9134,98 +9134,28 @@ header {
   min-height: 200px;
 }
 
-/* ============================================================
-  SECTIONS
-============================================================ */
-/* line 12, ../scss/app.scss */
-section.module {
-  margin: 0;
+/* line 10, ../scss/app.scss */
+.hero {
+  position: relative;
+  width: 100%;
+  padding: 2em 0;
+  overflow: hidden;
 }
 
 /* line 16, ../scss/app.scss */
-section.module:last-child {
-  margin-bottom: 0;
+.hero__background {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  width: 200%;
+  -webkit-filter: blur(100px);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 19, ../scss/app.scss */
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
-
-/* line 24, ../scss/app.scss */
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-/* line 29, ../scss/app.scss */
-section.module p:last-child {
-  margin-bottom: 0;
-}
-
-/* line 32, ../scss/app.scss */
-section.module.content {
-  padding: 40px 0;
-}
-
-/* line 35, ../scss/app.scss */
-section.module.parallax {
-  height: 600px;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-/* line 45, ../scss/app.scss */
-section.module.parallax h1 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
-  line-height: 600px;
-  font-weight: 700;
+/* line 25, ../scss/app.scss */
+.hero__title {
+  position: relative;
   text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 5em;
+  color: white;
 }
-
-/* line 54, ../scss/app.scss */
-section.module.parallax-1 {
-  /*background-image: url("../img/demo/_small/1.jpg");*/
-  background-image: url(../img/analogcomputer.jpg);
-}
-
-/* line 58, ../scss/app.scss */
-section.module.parallax-2 {
-  background-image: url("../img/demo/_small/2.jpg");
-}
-
-/* line 61, ../scss/app.scss */
-section.module.parallax-3 {
-  background-image: url("../img/demo/_small/3.jpg");
-}
-
-/*
-@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 96px;
-  }
-}
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 160px;
-  }
-}
-
-*/
