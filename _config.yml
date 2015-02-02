@@ -1,4 +1,4 @@
-baseurl: "exploring-computer-science/"
+baseurl: "http://mrshafiei.com/exploring-computer-science/"
 defaults: 
   - 
     scope: 
