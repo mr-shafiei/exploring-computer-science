@@ -1,7 +1,9 @@
 ---
-title:    GRASPS - Algorithms, Part 1
+title:    Term Project - Algorithms, Part 1
 subtitle: Word Guessing Game
 due-date: 2015-03-20
+type:  Project
+submission:  Dropbox
 ---
 
 ### Description
