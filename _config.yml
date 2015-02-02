@@ -1,4 +1,4 @@
-baseurl: "/exploring-computer-science/"
+baseurl: "exploring-computer-science/"
 defaults: 
   - 
     scope: 
