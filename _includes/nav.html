@@ -16,7 +16,7 @@
             {% for node in site.data.navigation %}
             {% capture nodediff %}{{ page.url | remove:node.url }}{% endcapture %}
                 <li{% if nodediff != page.url %} class="active"{% endif %}>
-                    <a href="{{ node.url }}">{{ node.title }}</a></li>
+                    <a href="{{ site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
             {% endfor %}
             </ul>
 
