@@ -9134,7 +9134,17 @@ header {
   min-height: 200px;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 12, ../scss/app.scss */
+.side-nav li {
+  margin-bottom: 0;
+}
+
+/* line 15, ../scss/app.scss */
+.side-nav li.active {
+  background: #efefef;
+}
+
+/* line 19, ../scss/app.scss */
 .hero {
   position: relative;
   width: 100%;
@@ -9142,7 +9152,7 @@ header {
   overflow: hidden;
 }
 
-/* line 16, ../scss/app.scss */
+/* line 25, ../scss/app.scss */
 .hero__background {
   position: absolute;
   top: -50%;
@@ -9152,7 +9162,7 @@ header {
   -webkit-transform: translate3d(0, 0, 0);
 }
 
-/* line 25, ../scss/app.scss */
+/* line 34, ../scss/app.scss */
 .hero__title {
   position: relative;
   text-align: center;
