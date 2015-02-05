@@ -68,4 +68,4 @@ Upload this file to your Dropbox portfolio folder.
 
 ### Collaboration Policy:
 
-*This assignment must be completed individually.  You may discuss high-level ideas with other students, but you should not share code.*
+*This assignment must be completed individually.  You may discuss high-level ideas with other students, but you should not share code.* 
