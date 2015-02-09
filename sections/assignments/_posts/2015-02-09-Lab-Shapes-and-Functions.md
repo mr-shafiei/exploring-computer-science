@@ -104,3 +104,10 @@ Under the <kbd>Motion</kbd> menu, use the command <kbd>Go To...</kbd> to put the
 Note:  The center of the screen is X=0, Y=0
 
 
+To change the angle back to something else, use the <kbd>Point in Direction</kbd> command:
+
+![pointindirection]({{ site.baseurl }}/media-library/2015/02/point-in-direction.png)
+
+
+You can use the numbers built in, OR, specify any angle!
+
