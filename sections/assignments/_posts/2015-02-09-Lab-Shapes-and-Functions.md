@@ -73,3 +73,34 @@ Finally, add a <kbd>Pen Up</kbd> command out of the <kbd>Pen</kbd> menu.
 
 ---
 
+# Helpful Hints
+
+## Hiding the Sprite
+
+Try Hiding the sprite so you don't see it!
+
+Go to the <kbd>Looks</kbd> menu and choose <kbd>Hide</kbd>
+
+![hidesprite]({{ site.baseurl }}/media-library/2015/02/hide-sprite.png)
+
+---
+
+## Clearing the Screen
+
+Under the <kbd>Pen</kbd> menu, click on <kbd>Clear</kbd> (or incorporate it into your program):
+
+![clearscreen]({{ site.baseurl }}/media-library/2015/02/clear-screen.png)
+
+
+---
+
+## Positioning the Sprite
+
+Under the <kbd>Motion</kbd> menu, use the command <kbd>Go To...</kbd> to put the sprite in a new position.
+
+![goto]({{ site.baseurl }}/media-library/2015/02/go-to.png)
+
+
+Note:  The center of the screen is X=0, Y=0
+
+
