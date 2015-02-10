@@ -17,6 +17,10 @@
     $(document).ready(function() {
         scratchblocks2.parse("pre.blocks");
         scratchblocks2.parse("code.blocks", {inline: true});
+
+        $(document.links).filter(function() {
+            return this.hostname != window.location.hostname;
+        }).attr('target', '_blank');
     });
     </script>
 

@@ -13,18 +13,23 @@ submission:  Dropbox
 - Use the custom block as part of a larger program:
 
 
-## Example:
+## Example (Draw Square):
 
 <pre class="blocks">
 
     define Draw Square with sides (length) long
+        Pen Down
         repeat (4)
             move (length) steps
             turn right (90) degrees
         end
+        Pen Up
     
 
     When flag clicked
+    point in direction (90 v)
+    go to x:(0) y:(0)
+    hide
     Repeat (36)
         Draw Square with sides (50) long
         Move (10) Steps
@@ -33,26 +38,12 @@ submission:  Dropbox
 
 </pre>
 
-# Instructions
 
-Build custom blocks (functions) to draw different shapes of different sizes:
+### Output:
 
-- Square (Tutorial Below)
-- Triangle (Figure it out!)
-- Hexagon (Figure it out!)
-- Circle (Challenge!)
+![drawsqaureprogram]({{ site.baseurl }}/media-library/2015/02/draw-sqaure-program.png)
 
 
-Then, use those functions as a part of a bigger program.
-
+[View In Scratch](http://scratch.mit.edu/projects/47362756/#editor)
 
 ---
-<pre class="blocks">
-    define Draw Square
-
-</pre>
-
-
-# Tutorial
-
-## Step 1:  Create a new
