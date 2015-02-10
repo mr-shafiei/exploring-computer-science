@@ -47,3 +47,13 @@ submission:  Dropbox
 [View In Scratch](http://scratch.mit.edu/projects/47362756/#editor)
 
 ---
+
+# Instructions:
+
+1. Replicate the program above
+2. Build additional custom blocks that create:
+    - Triangle
+    - Hexagon
+    - Circle (challenge!)
+3. Try different 
+
