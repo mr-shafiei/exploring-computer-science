@@ -17,6 +17,18 @@ submission:  Dropbox
     
 </pre>
 
+- Use the custom block as part of a larger program:
+
+<pre class="blocks">
+
+    Repeat (36)
+        Draw Square with sides (50) long
+        Move (10) Steps
+        Turn Right (10) degrees
+    End
+
+</pre>
+
 # Instructions
 
 Build custom blocks (functions) to draw different shapes of different sizes:
