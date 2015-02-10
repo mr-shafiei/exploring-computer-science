@@ -64,9 +64,9 @@ Are you stuck trying to create the triangle or hexagon?
 
 Think about the following:
 
-1. The <code class="blocks">Draw Square</code> function contained a move/turn sequence that repeated 4 times, once for each of the 4 sides of the square.
+1. The <code class="blocks">Draw Square :: custom</code> function contained a move/turn sequence that repeated 4 times, once for each of the 4 sides of the square.
 2. How many times would move/turn need to be repeated for a triangle?  How about a hexagon?
-3. In <code class="blocks">Draw Square</code>, the turn command was set to 90 degrees <code class="blocks">turn right (90) degrees</code>.  For an equilateral triangle, what would the angle need to be?  What about for a hexagon?
+3. In <code class="blocks">Draw Square :: custom</code>, the turn command was set to 90 degrees <code class="blocks">turn right (90) degrees</code>.  For an equilateral triangle, what would the angle need to be?  What about for a hexagon?
 
 
 
