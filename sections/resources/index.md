@@ -11,5 +11,4 @@ Contains projects, demos and labs from class:
 
 # Reading
 
-
-
+[Blown to Bits - Chapter 1](books/blown-to-bits/B2B-Chapter-01.pdf)
