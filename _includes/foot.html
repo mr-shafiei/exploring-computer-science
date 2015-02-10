@@ -4,7 +4,7 @@
 
 </div> <!-- END OF #wrapper -->
 <!-- JS -->
-<script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+
 <script src="{{ site.baseurl }}/bower_components/foundation/js/foundation.min.js"></script>
 <script src="{{ site.baseurl }}/js/app.js"></script>
 
@@ -12,6 +12,15 @@
 <script>
   $(document).foundation();
 </script>
+
+    <script>
+    $(document).ready(function() {
+        scratchblocks2.parse("pre.blocks");
+        scratchblocks2.parse("code.blocks", {inline: true});
+    });
+    </script>
+
+
 
 <!--
 <script>

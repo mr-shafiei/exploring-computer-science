@@ -24,6 +24,14 @@ Then, use those functions as a part of a bigger program.
 
 
 ---
+<pre class="blocks">
+    define Draw Square
+    repeat (4)
+        move (10) steps
+        turn right (90) degrees
+    end
+</pre>
+
 
 # Tutorial
 
