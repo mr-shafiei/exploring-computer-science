@@ -9,18 +9,22 @@ submission:  Dropbox
 # Goals
 
 - Practice developing an abstraction for drawing shapes
-- Build a custom block (function) that takes input (arguments):
-
-<pre class="blocks">
-
-    define Draw Square with sides () long
-    
-</pre>
-
+- Build a custom block (function) that takes input (arguments)
 - Use the custom block as part of a larger program:
 
+
+## Example:
+
 <pre class="blocks">
 
+    define Draw Square with sides (length) long
+        repeat (4)
+            move (length) steps
+            turn right (90) degrees
+        end
+    
+
+    When flag clicked
     Repeat (36)
         Draw Square with sides (50) long
         Move (10) Steps
@@ -45,10 +49,7 @@ Then, use those functions as a part of a bigger program.
 ---
 <pre class="blocks">
     define Draw Square
-    repeat (4)
-        move (10) steps
-        turn right (90) degrees
-    end
+
 </pre>
 
 
