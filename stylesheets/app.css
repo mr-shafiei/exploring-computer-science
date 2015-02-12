@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Over+the+Rainbow);
 @import url(http://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /* line 348, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.0/";
@@ -9108,7 +9109,7 @@ th.hide-for-touch {
   background-attachment: fixed;
   background-size: cover;
 } */
-/* line 14, ../scss/_layouts.scss */
+/* line 15, ../scss/_layouts.scss */
 header {
   /* background: url(../img/analogcomputer.jpg); */
   background-size: 100%;
@@ -9117,19 +9118,19 @@ header {
   margin-bottom: 25px;
 }
 
-/* line 25, ../scss/_layouts.scss */
+/* line 26, ../scss/_layouts.scss */
 .title-area li a {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-/* line 32, ../scss/_layouts.scss */
+/* line 33, ../scss/_layouts.scss */
 .shadow-border {
   -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 38, ../scss/_layouts.scss */
+/* line 39, ../scss/_layouts.scss */
 #masthead {
   min-height: 200px;
 }
@@ -9166,6 +9167,5 @@ header {
 .hero__title {
   position: relative;
   text-align: center;
-  font-size: 5em;
   color: white;
 }
