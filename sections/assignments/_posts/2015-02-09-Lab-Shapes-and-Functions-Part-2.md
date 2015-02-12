@@ -71,9 +71,7 @@ Think about the following:
 
 
 
-# Starter File
 
-Confused about how to start?  Try the [starter file!](http://scratch.mit.edu/projects/47773570/#editor)
 
 
 
